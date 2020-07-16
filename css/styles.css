@@ -332,8 +332,10 @@ p {
 .button {
   width: 44px;
   height: 44px;
+  border-radius: 50%;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
   color: var(--primary-text-color);
-  background-color: var(--secondary-text-color);
+
   font-family: Roboto;
   font-style: normal;
   font-weight: bold;
@@ -347,9 +349,9 @@ p {
 .button-item {
   margin-right: 10px;
 }
-.button-symbol {
-  width: 44px;
-  height: 44px;
+.button-instagram {
+  width: 22px;
+  height: 22px;
 }
 
 .button:hover,
