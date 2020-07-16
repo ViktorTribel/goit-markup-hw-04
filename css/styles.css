@@ -347,6 +347,10 @@ p {
 .button-item {
   margin-right: 10px;
 }
+.button-symbol {
+  width: 44px;
+  height: 44px;
+}
 
 .button:hover,
 .button:focus {
