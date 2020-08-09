@@ -350,8 +350,7 @@ p {
   margin-right: 10px;
 }
 .button-instagram {
-  width: 22px;
-  height: 22px;
+  fill: var(--secondary-text-color);
 }
 
 .button:hover,
