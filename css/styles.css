@@ -357,12 +357,13 @@ p {
 
 .button:hover,
 .button:focus {
-  color: var(--whit-color);
   background-color: var(--accent-color);
 }
-.button-instagram:hover {
-  fill: currentColor;
+.button:hover .button-instagram,
+.button:focus .button-instagram {
+  fill: var(--whit-color);
 }
+
 .adres {
   color: var(--whit-color);
   font-family: Roboto;
