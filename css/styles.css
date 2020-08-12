@@ -25,6 +25,7 @@ a {
   color: inherit;
   font-family: inherit;
 }
+
 h1,
 h2,
 h3,
@@ -257,7 +258,8 @@ p {
   line-height: 1.1;
   text-align: center;
 }
-.section .work-list {
+
+.work-list {
   margin-top: 10px;
   color: var(--secondary-text-color);
   font-family: Roboto;
@@ -267,7 +269,6 @@ p {
   line-height: 1.1;
   text-align: center;
 }
-
 /*ameil*/
 
 .email-list {
@@ -321,9 +322,11 @@ p {
 }
 /*customers-img*/
 .client-logo {
+  background: #ffffff;
   margin-right: 30px;
 }
 .href-logo {
+  border-radius: 4px;
   display: block;
 }
 
@@ -351,17 +354,40 @@ p {
 .button-item {
   margin-right: 10px;
 }
-.button-instagram {
+.button-instagram,
+.button-twitter,
+.button-facebook,
+.button-linkedin {
   fill: var(--button-color);
 }
-
 .button:hover,
 .button:focus {
   background-color: var(--accent-color);
 }
 .button:hover .button-instagram,
-.button:focus .button-instagram {
+.button:focus .button-instagram,
+.button:hover .button-twitter,
+.button:focus .button-twitter,
+.button:hover .button-facebook,
+.button:focus .button-facebook,
+.button:hover .button-linkedin,
+.button:focus .button-linkedin {
   fill: var(--whit-color);
+}
+
+.footer-instagram,
+.footer-twitter,
+.footer-facebook,
+.footer-linkedin {
+  fill: var(--whit-color);
+}
+
+.button-second {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.button-client {
+  border-radius: var(--secondary-text-color);
 }
 
 .adres {
