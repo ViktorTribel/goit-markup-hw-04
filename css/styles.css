@@ -20,6 +20,7 @@ html {
 }
 
 a {
+  display: block;
   text-decoration: none;
   font-style: normal;
   color: inherit;
@@ -319,17 +320,32 @@ p {
   display: block;
   padding: 25px 100px;
   background-color: var(--secondary-background-color);
+  border-radius: 4px;
 }
 /*customers-img*/
 .client-logo {
-  background: #ffffff;
   margin-right: 30px;
 }
 .href-logo {
+  background: #ffffff;
+  border: 1px solid #afb1b8;
   border-radius: 4px;
   display: block;
 }
 
+.href-logo:hover,
+.href-logo:focus {
+  border: 1px solid var(--accent-color);
+}
+
+.href-logo:hover .button-client,
+.href-logo:focus .button-client {
+  fill: var(--accent-color);
+  border: var(--accent-color);
+}
+.button-client {
+  fill: #afb1b8;
+}
 .section .img-hover:hover {
   color: var(--accent-color);
 }
@@ -384,10 +400,6 @@ p {
 
 .button-second {
   background-color: rgba(255, 255, 255, 0.1);
-}
-
-.button-client {
-  border-radius: var(--secondary-text-color);
 }
 
 .adres {
