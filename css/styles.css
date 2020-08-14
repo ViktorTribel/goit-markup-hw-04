@@ -155,18 +155,27 @@ p {
 .info-href {
   fill: var(--secondary-text-color);
 }
-.info:hover .info-href,
+.info:hover,
 .info:focus {
   color: var(--accent-color);
+}
+.info:hover .info-href,
+.info:focus .info-href {
   fill: var(--accent-color);
 }
+
 /*hero*/
 .overlay {
   max-width: 1600px;
   height: 600px;
   margin-left: auto;
   margin-right: auto;
-  background-image: url(../images/Header.jpg);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.8),
+      rgb(47, 48, 58, 0.8)
+    ),
+    url(../images/Header.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -176,7 +185,6 @@ p {
   text-align: center;
   padding-top: 200px;
   padding-bottom: 200px;
-  background-color: grey;
 }
 .hero-title {
   margin-bottom: 30px;
