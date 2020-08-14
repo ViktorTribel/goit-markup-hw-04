@@ -151,9 +151,14 @@ p {
   letter-spacing: 0.02em;
   text-decoration: none;
 }
-.info:hover,
+
+.info-href {
+  fill: var(--secondary-text-color);
+}
+.info:hover .info-href,
 .info:focus {
   color: var(--accent-color);
+  fill: var(--accent-color);
 }
 /*hero*/
 .overlay {
