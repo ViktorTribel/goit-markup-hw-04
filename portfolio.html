@@ -17,32 +17,39 @@
   <body class="page">
     <!--header-->
     <header class="header-background">
-      <nav class="container main-nav">
-        <a href="./index.html" class="logo"
-          ><span class="logo-second">Web</span>Studio
-        </a>
-        <ul class="site-nav list">
-          <li class="item"><a href="./index.html" class="link">Студия</a></li>
-          <li class="item">
-            <a href="./portfolio.html" class="link current">Портфолио</a>
-          </li>
-          <li class="item"><a href="" class="link">Контакты</a></li>
-        </ul>
-        <ul class="auth-nav list">
-          <li class="item">
-            <a href="" class="info">
-              <img src="./images/envelope(hover).svg" alt="конверт" />
-              info@devstudio.com
-            </a>
-          </li>
-          <li class="item">
-            <a href="" class="info">
-              <img src="./images/smartphone.svg" alt="телефон" />
-              +380961111111
-            </a>
-          </li>
-        </ul>
-      </nav>
+      <div class="container">
+        <nav class="main-nav">
+          <a href="./index.html" class="logo"><span class="logo-second">Web</span>Studio
+          </a>
+          <ul class="site-nav list">
+            <li class="item">
+              <a href="./index.html" class="link current">Студия</a>
+            </li>
+            <li class="item">
+              <a href="./portfolio.html" class="link">Портфолио</a>
+            </li>
+            <li class="item"><a href="" class="link">Контакты</a></li>
+          </ul>
+          <ul class="auth-nav list">
+            <li class="item">
+              <a href="" class="info">
+                <svg class="info-href" width="16" height="11.2">
+                  <use href="./images/symbol-defs.svg#icon-envelopehover"></use>
+                </svg>
+                info@devstudio.com
+              </a>
+            </li>
+            <li class="item">
+              <a href="" class="info">
+                <svg class="info-href" width="16" height="11.2">
+                  <use href="./images/symbol-defs.svg#icon-smartphone"></use>
+                </svg>
+                +380961111111
+              </a>
+            </li>
+          </ul>
+        </nav>
+      </div>
     </header>
 
     <!--Portfolio content-->
@@ -245,8 +252,7 @@
       <div class="container container-footer">
         <div class="footer">
           <div class="item-logo">
-            <a href="./index.html" class="logo"
-              ><span class="logo-second">Web</span>Studio
+            <a href="./index.html" class="logo"><span class="logo-second">Web</span>Studio
             </a>
             <div class="item-adres">
               <address>
@@ -266,21 +272,51 @@
             <b class="mailing">присоединяйтесь</b>
             <ul class="list buton-styl">
               <li class="button-item">
-                <a href="" class="button">I</a>
+                <a href="" class="button button-second">
+                  <svg class="button-instagram footer-instagram" width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-instagram"></use>
+                  </svg>
+                </a>
               </li>
               <li class="button-item">
-                <a href="" class="button">T</a>
+                <a href="" class="button button-second">
+                  <svg class="button-twitter footer-twitter" width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-twitter"></use>
+                  </svg>
+                </a>
               </li>
               <li class="button-item">
-                <a href="" class="button">F</a>
+                <a href="" class="button button-second">
+                  <svg class="button-facebook footer-facebook" width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-facebook"></use>
+                  </svg>
+                </a>
               </li>
               <li class="button-item">
-                <a href="" class="button">l</a>
+                <a href="" class="button button-second">
+                  <svg class="button-linkedin footer-linkedin" width="20px" height="20px">
+                    <use href="./images/symbol-defs.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
               </li>
             </ul>
           </div>
           <div class="item-mailing">
             <b class="mailing">Подпишитесь на рассылку</b>
+            <ul class="list">
+              <li class="button-style">
+                <a href="" class="button-info">E-mail
+    
+                </a>
+              </li>
+              <li>
+                <a href="" class="button-prim">Подписаться
+                  <svg class="info-prim" width="24" height="24">
+                    <use href="./images/symbol-defs.svg#icon-icon-send"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
           </div>
         </div>
         <div class="border"></div>
