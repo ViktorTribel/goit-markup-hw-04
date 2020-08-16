@@ -47,7 +47,7 @@ p {
   margin: 0;
   padding: 0;
   color: var(--primary-text-color);
-  background-color: var(--background-color);
+  background-color: var(--whit-color);
   font-family: Roboto, sans-serif;
   letter-spacing: 0.03em;
 }
@@ -98,11 +98,10 @@ p {
 
 /*site-nav*/
 .site-nav {
-  margin-left: 85px;
   display: flex;
   margin-left: 85px;
-  margin-top: 32px;
-  margin-bottom: 32px;
+  margin-top: 1.35px;
+  margin-bottom: 1.35px;
   align-items: center;
 }
 
@@ -509,9 +508,10 @@ p {
 }
 .button-prim {
   width: 200px;
-  height: 50px;
   margin-top: 20px;
   margin-left: 12px;
+  padding-top: 10px;
+  padding-left: 29px;
   display: inline-block;
   text-align: center;
   border-radius: 6px;
@@ -576,6 +576,8 @@ p {
   width: 370px;
   margin-right: 30px;
   margin-bottom: 30px;
+  border: 1px solid #eeeeee;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .portfolio-element:nth-child(3n) {
   margin-right: 0;
